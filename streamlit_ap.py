@@ -1,3 +1,7 @@
 import streamlit
-streamlit.title('My Parents new healthy dinner' )
-Streamlit.Header('Menu for the Dinner')
+streamlit.title('My Parents new healthy dinner')
+
+
+streamlit.header('Menu for the Dinner')
+streamlit.text('What will you have')
+
