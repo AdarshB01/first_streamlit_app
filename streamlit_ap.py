@@ -24,6 +24,7 @@ streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 # Display the table on the page.
 streamlit.header("Fruityvice Fruit Advice!")
 
+import snowflake.connector
 
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+"Kiwi")
